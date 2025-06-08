@@ -1,4 +1,4 @@
-package dev.suomarte.learn.Kotlin
+package dev.suomarte.learn.kotlin
 
 import kotlin.test.Test
 
@@ -27,6 +27,17 @@ class PrintlnTest {
     @Test
     fun stringTemplate() {
         val name = "Michael"
-        println("My name is $name") // Prints: My name is Michael
+        val number = 5
+        println("$name has number $number") // Prints: Michael has number 5
+    }
+
+    /**
+     * Shows that the template function of println is able to add numbers.
+     */
+    @Test
+    fun stringTemplateAddNumbers() {
+        val one = 1
+        val two = 2
+        println("One plus two is ${one + two}") // Prints: One plus two is 3
     }
 }
