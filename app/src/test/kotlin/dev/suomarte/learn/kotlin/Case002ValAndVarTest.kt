@@ -8,7 +8,7 @@ class Case002ValAndVarTest {
     /**
      * Shows that a variable declared with val is immutable
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - In Kotlin, val is equivalent to using the final modifier in Java.
      * - With val, you don't need to explicitly specify the type. The compiler can infer it.
      */
@@ -21,7 +21,7 @@ class Case002ValAndVarTest {
     /**
      * Shows that a variable declared with var is mutable
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - In Kotlin, using var is equivalent to declaring a variable in Java without the final modifier.
      * - With var, you don't need to explicitly specify the type. The compiler can infer it.
      */

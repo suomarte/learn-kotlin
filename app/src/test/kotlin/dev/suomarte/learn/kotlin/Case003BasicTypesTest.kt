@@ -8,7 +8,7 @@ class Case003BasicTypesTest {
     /**
      * Shows arithmetic operations of basic type integer
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - Kotlin supports the same arithmetic operations for integers as Java developers would expect.
      * - With var, you don't need to explicitly specify the type. The compiler can infer it. In this case integer.
      */
@@ -30,7 +30,7 @@ class Case003BasicTypesTest {
      * - `byteNull` is a nullable Byte and can be assigned `null`.
      * - Attempting to assign `null` to a non-nullable Byte (`byteNotNull`) would result in a compilation error.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - Unlike Java, Kotlin does not have primitive types; all types are represented as classes.
      * - A Byte cannot be null by default. To allow nullability, use Byte?.
      */
@@ -44,7 +44,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type Byte, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * As in Java, the range of Byte in Kotlin is from -128 to 127.
      */
     @Test
@@ -62,7 +62,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type Short, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * As in Java, the range of Short in Kotlin is from -32768 to 32767.
      */
     @Test
@@ -80,7 +80,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type Int, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * As in Java, the range of Int in Kotlin is from -2147483648 to 2147483647.
      */
     @Test
@@ -98,7 +98,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type Long, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * As in Java, the range of Long in Kotlin is from -9223372036854775808 to 9223372036854775807.
      */
     @Test
@@ -116,7 +116,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type unsigned Byte, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - Java does not have true primitive unsigned types in the same way as Kotlin.
      * - Unlike in Java, literals for basic unsigned types must have the postfix u.
      */
@@ -133,7 +133,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type unsigned Short, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - Java does not have true primitive unsigned types in the same way as Kotlin.
      * - Unlike in Java, literals for basic unsigned types must have the postfix u.
      *
@@ -151,7 +151,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type unsigned Int, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - Java does not have true primitive unsigned types in the same way as Kotlin.
      * - Unlike in Java, literals for basic unsigned types must have the postfix u.
      *
@@ -169,7 +169,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type unsigned Long, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - Java does not have true primitive unsigned types in the same way as Kotlin.
      * - Unlike in Java, literals for the basic type ULong must have the postfix uL.
      */
@@ -186,7 +186,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type Float, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - Float in Java and Kotlin is based on the same JVM type and behaves nearly identically in usage.
      * - Just like in Java, Kotlin requires an f suffix to denote a Float literal instead of a Double.
      */
@@ -201,7 +201,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the initialization of the basic type Double, including its minimum and maximum values.
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - Double in Java and Kotlin is based on the same JVM type and behaves nearly identically in usage.
      * - Just like in Java, Kotlin requires no suffix to denote a Double literal.
      */
@@ -216,7 +216,7 @@ class Case003BasicTypesTest {
     /**
      * Shows the string interpolation feature of kotlin
      *
-     *  Noticeable for Java developers:
+     *  Note for Java developers:
      *  - String interpolation is a very useful feature in Kotlin that is not available in Java.
      */
     @Test

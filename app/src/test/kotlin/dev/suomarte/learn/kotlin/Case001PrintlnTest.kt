@@ -7,7 +7,7 @@ class Case001PrintlnTest {
     /**
      * This is just a simple hello world, but implemented as test
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - methods in Java are functions fun in Kotlin
      * - a return void is not necessary
      * - semicolon at end of operation is optional
@@ -20,7 +20,7 @@ class Case001PrintlnTest {
     /**
      * Shows the template function of println
      *
-     * Noticeable for Java developers:
+     * Note for Java developers:
      * - In Kotlin, string templates are built directly into the println function.
      * - Inn Java, to use template-like functionality, you typically rely on utilities such as String.format.
      */
