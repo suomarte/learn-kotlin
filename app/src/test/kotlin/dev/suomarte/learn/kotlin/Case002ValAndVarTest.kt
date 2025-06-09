@@ -3,7 +3,7 @@ package dev.suomarte.learn.kotlin
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
-class ValAndVarTest {
+class Case002ValAndVarTest {
 
     /**
      * Shows that a variable declared with val is immutable

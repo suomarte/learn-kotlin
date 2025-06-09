@@ -2,7 +2,7 @@ package dev.suomarte.learn.kotlin
 
 import kotlin.test.Test
 
-class PrintlnTest {
+class Case001PrintlnTest {
 
     /**
      * This is just a simple hello world, but implemented as test
