@@ -102,7 +102,7 @@ class Case004ListTest {
      * Shows that an element is removed `remove` is called
      */
     @Test
-    fun elementIsRemovedFromEndWhenCallingRemove() {
+    fun elementIsRemovedWhenCallingRemove() {
         val list = mutableListOf("one", "two", "three")
         list.remove("two")
         assertEquals(listOf("one", "three"), list)
